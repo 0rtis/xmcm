@@ -1,0 +1,13 @@
+.classpath
+.project
+.recommenders
+.settings
+
+/.idea
+/*.iml
+
+/*.jar
+
+/bin
+/target
+
