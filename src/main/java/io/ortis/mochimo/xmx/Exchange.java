@@ -153,8 +153,8 @@ public class Exchange implements Runnable
 		final BackendAPIWrapper api = new BackendAPIWrapper("http://104.196.5.151:8889");
 		final Fountain fountain = new Fountain("http://35.211.198.192");
 
-		final String exchangeTag = "";
-		final String exchangeWots = "";
+		final String exchangeTag = EXCHANGE TAG;
+		final String exchangeWots = EXCHANGE WOTS;
 
 		final Account exchangeAccount = new Account(exchangeWots, null);
 		final TagAccount exchangeWallet = new TagAccount(exchangeTag, exchangeAccount);
