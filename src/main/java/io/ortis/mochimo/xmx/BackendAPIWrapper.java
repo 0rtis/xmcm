@@ -93,7 +93,7 @@ public class BackendAPIWrapper
 
 		final InputStream is;
 		if(responseCode != 200)
-			is = conn.getErrorStream();
+			is = conn.getInputStream();
 		else
 			is = conn.getInputStream();
 

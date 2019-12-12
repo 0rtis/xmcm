@@ -11,6 +11,7 @@ package io.ortis.mochimo.xmx;
 
 import java.io.IOException;
 import java.math.BigInteger;
+import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.security.SecureRandom;
 import java.util.HashMap;
@@ -149,6 +150,8 @@ public class Exchange implements Runnable
 
 	public static void main(String[] args) throws Exception
 	{
+
+
 		final MojoWrapper mojo = new MojoWrapper(Paths.get("mojo-app-2.4-0-20190715.jar"));
 		final BackendAPIWrapper api = new BackendAPIWrapper("http://104.196.5.151:8889");
 		final Fountain fountain = new Fountain("http://35.211.198.192");
